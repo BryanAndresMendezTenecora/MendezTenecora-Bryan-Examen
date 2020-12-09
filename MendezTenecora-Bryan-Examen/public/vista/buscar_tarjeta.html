@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+    <meta charset='utf-8'>
+    <title>Listado de telefonos</title>
+    <link rel="stylesheet" type="text/css" href="../css/style_buscar_tarjeta.css" />
+    <script src="../javascript/listar_pedidos.js"></script>
+    <!--<script src="../javascript/listar_comida_nombre.js"></script>-->
+    </head>
+
+    <body>
+        <div class="contenedor">
+            <header id="cabecera">
+                <nav class="menu">
+                    <h3 class="titulo_menu">Menu</h3>
+                    <ul>
+                        <li><a href="../vista/index.html">Menu</a></li>
+                        <li><a href="crear_pedido.html">Crear Pedido</a></li>
+                        <li><a href="listar_pedidos.html">Listar Pedido</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="logo">
+                <img class=img_logo src="../img/excelencias.png" alt="Logo del Restaurante">
+            </div>
+            <div class="separador">
+                <h2>Listar</h2>
+            </div>
+            <div id="titulo">
+                <form id="formulario01">
+                    <h2>Buscar por Número de Tarjeta</h2>
+                    <input type="text" id="tarjeta1" name="tarjeta1" value="">
+                    <input type="button" id="buscartarjeta" name="buscartarjeta" value="Buscar por Tarjeta"
+                    onclick="buscarTarjeta()">
+                    <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='index.html'">
+                    <div id="separador"></div>
+                </form>
+                <div id="informacion"><b></b></div>
+            </div>
+        </div>
+    </body>
+</html>

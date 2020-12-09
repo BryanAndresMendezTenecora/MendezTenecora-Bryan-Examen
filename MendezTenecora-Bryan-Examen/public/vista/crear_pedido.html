@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <title>Comenzar Pedido</title>
+        <link rel="stylesheet" type="text/css" href="../css/style_crear_pedido.css" />
+        <meta charset="utf-8" />
+    </head>
+    <body id="cuerpo">
+        <div class="contenedor">
+            <header id="cabecera">
+                <nav class="menu">
+                    <h3 class="titulo_menu">Menu</h3>
+                    <ul>
+                        <li><a href="index.html">Menu</a></li>
+                        <li><a href="listar_pedidos.html">Listar Pedido</a></li>
+                        <li><a href="buscar_tarjeta.html">Buscar Tarjeta</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="logo">
+                <img class=img_logo src="../img/excelencias.png" alt="Logo del Restaurante">
+            </div>
+            <div class="separador">
+                <h2>Pedido</h2>
+            </div>
+            <div class="cont_for">
+                <form id="formulario01" method="POST" onsubmit="" action="../../admin/controlador/agregar_pedido.php">
+                    <label>&#8226; Numero de Pedido:</label>
+                    <input type="text" id="numeroPed" name="numeroPed" />   
+                    <label>&#8226; Numero de Tarjeta:</label>
+                    <input type="text" id="tarjeta" name="tarjeta">
+                    <!--<label>Cliente:</label>
+                    <input type="text" id="nombreCli" name="nombreCli" />-->
+                    <label>&#8226; Observaciones:</label>
+                    <input type="text" id="obs" name="obs" />
+                    <input id="siguiente" type="submit" value="Agregar Comidas" />
+                    <input id="cancelar" type="button" value="Cancelar" onclick="location.href='index.html'" />
+                    <div></div>
+                
+                </form>
+            </div>
+            <div class="imagenes1">
+                <img class="img_chef" src="../img/chef.jpg" alt="Chef">
+                <img class="img_pedido" src="../img/pedido.jpg" alt="Entrega">
+            </div>
+            <footer id="pie">
+                <div class="cont_pie"></div>
+                    <div class="autor">
+                        <p><b>Estudiante:</b> Bryan Andres Mendez Tenecora</p>
+                        <p><b>Correo Electrónico:</b><a href="mailto:bmendezt@est.ups.edu.ec">bmendezt@est.ups.edu.ec</a></p>
+                        <p><b>Telefono:</b><a href="tel:+593994625397">(593) 994625397</a></p>
+                        <p><small>&copy; Todos los derechos reservados al autor</small></p>
+                    </div>
+                    <div class="internet">
+                        <a href=""><img class="img_usuario" alt="icono usuario" src="../img/usuario.jpg"></a>
+                        <a href="https://www.instagram.com"><img class="img_insta" alt="icono de instagram" src="../img/insta.jpg"></a>
+                        <a href="https://mail.google.com"><img class="img_gmail" alt="icono de gmail" src="../img/gmail.jpg"></a>
+                        <a href="https://www.facebook.com"><img class="img_facebook" alt="icono de facebook" src="../img/facebook.png"></a>
+                    </div>
+                    <div class="logo_u">
+                        <a href="https://www.ups.edu.ec/"><img class="img_ups" alt="icono de ups" src="../img/ups.png"></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
