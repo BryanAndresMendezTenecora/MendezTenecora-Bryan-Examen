@@ -1,0 +1,161 @@
+body{
+    background-image: url(../img/cocina4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.contenedor{
+    margin: 0 auto;
+    width: 88%;
+    border: 2px solid black;
+    max-width: 100%;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,.5);
+}
+
+#cabecera1{
+    clear: both;
+}
+.menu{
+    border: 2px solid black;
+    float: left;
+    width: 20%;
+    margin: 5px;   
+}
+.titulo_menu{
+    background-color: gray;
+    color: white;
+}
+.logo{
+    float: left;
+    width: 70%
+}
+
+.img_logo{
+    margin-top: 3px;
+    margin-left: 40px;
+    width: 850px;
+    height: 80px;
+    max-width: 100%;
+}
+.separador{
+    clear: both;
+    margin-top: 25px;
+    display: block;
+    background-color:burlywood;
+}
+
+.separador h2{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.cont_form{
+    clear: both;
+    float: left;
+    width: 40%;
+    margin-left: 20px;
+    max-width: 100%;
+    border: 7px groove white;
+}
+
+.cont_form h2{
+    background-color:burlywood;
+    font-weight: bold;
+}
+
+.menu_comida{
+    float: left;
+    width: 50%;
+}
+
+.menu_tabla{
+    margin: 0 auto;
+    width: 80%;
+}
+table, caption, tr, th,td{
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border-spacing: 0;
+ }
+
+ caption{
+     background-color: white;
+     font-weight: bold;
+     letter-spacing: 1px;
+ }
+
+ th{
+     font-weight: bold;
+     letter-spacing: 1px;
+     text-align: center;
+ }
+
+ td{
+     font-weight: bold;
+ }
+
+.imagenes{
+    clear: both;
+    margin:0 auto;
+    max-width: 100%;
+}
+.imagenes h2 {
+    background-color: burlywood;
+    font-weight: bold;
+}
+
+.img_encebollado{
+    float: left;
+    width: 320px;
+    height: 210px;
+    margin-left: 20px;
+    max-width: 100%;
+}
+.img_bandera{
+    float: left;
+    width: 320px;
+    height: 210px;
+    max-width: 100%;
+}
+.img_camarones{
+    float: left;
+    width: 320px;
+    height: 210px;
+    max-width: 100%;
+}
+
+.img_churrascos{
+    float: left;
+    width: 320px;
+    height: 210px;
+    max-width: 100%;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+input{
+   margin: 4px;
+    width: 95%;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
